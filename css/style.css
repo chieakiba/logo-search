@@ -1,0 +1,38 @@
+.title {
+	text-align: center;
+	color: red;
+	font-style: italic;
+}
+
+#options {
+	background-color: linen;
+	text-align: center;
+	padding-bottom: 1em;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.selection {
+	margin-top: 5em;
+	width: 20em;
+	font-size: 1em;
+}
+
+.selection option {
+	height: 20em;
+}
+
+.search-button {
+	text-align: center;
+	padding-top: 5em;
+	padding-bottom: 1em;
+}
+
+.search {
+	background-color: red;
+	border-style: none;
+	color: white;
+	padding: .5em 2em;
+	font-size: 1em;
+}
