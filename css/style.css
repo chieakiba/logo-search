@@ -17,11 +17,11 @@
 .label {
 	background-color: white;
     color: #9e9d24;
-    padding: 16px;
+    padding: 5px;
     font-size: 1em;
-    padding-right: 15em;
     border: none;
     cursor: pointer;
+    width: 25em;
 }
 
 .label:after {
@@ -39,15 +39,22 @@
 .dropdown-content {
 	display: none;
 	position: absolute;
-	min-width: 160px;
+	list-style: none;
+	margin-top: -.015em;
+	width: 25em;
+	margin-left: -2.5em;
 }
 
-.dropdown-content a {
+.dropdown-content li {
 	color: #d50000;
-	padding: 12px 110px;
-	text-decoration: none;
-	display: block;
+	/*padding: 12px 110px;*/
+	/*display: block;*/
 	background-color: linen;
+	border: 0.5px solid black;
+}
+
+.dropdown-content li a {
+	text-decoration: none;
 }
 
 .scholarship-option:hover .label, .education-option:hover .label {
