@@ -50,17 +50,13 @@
 
 .dropdown-content li {
 	padding: 1em;
-	background-color: linen;
+	background-color: #efebe9;
 	border: 0.25px solid grey;
 }
 
 .dropdown-content li a {
 	text-decoration: none;
 	color: #d50000;
-}
-
-.scholarship-option:hover .label, .education-option:hover .label {
-	background-color: #d7ccc8;
 }
 
 .scholarship-option:hover .dropdown-content, .education-option:hover .dropdown-content {
