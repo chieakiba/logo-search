@@ -1,14 +1,16 @@
+// global variable
+var scholarshipOption;
+var educationOption;
+
 $(document).ready(function(){
-	$('.dropdown-content li').click(function(){
-		var scholarshipOption = $(this).children().html();
+	$('.scholarship li').click(function(){
+		scholarshipOption = $(this).children().html();
 		$('.program').text(scholarshipOption);
 		console.log(scholarshipOption);
-		$('.program').off();
 	});
-	$('.dropdown-content li').click(function(){
-		var educationOption = $(this).children().html();
+	$('.education li').click(function(){
+		educationOption = $(this).children().html();
 		$('.education').text(educationOption);
 		console.log(educationOption);
-		$('.education').off();
 	});
 })
