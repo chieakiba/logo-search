@@ -17,7 +17,7 @@
 .label {
 	background-color: white;
     color: #9e9d24;
-    padding: 5px;
+    padding: 1.25em;
     font-size: 1em;
     border: none;
     cursor: pointer;
@@ -32,8 +32,11 @@
 .scholarship-option, .education-option {
 	position: relative;
 	display: inline-block;
-	padding-left: 1em;
+	padding-left: 3.15em;
 	padding-top: 11em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
 }
 
 .dropdown-content {
@@ -46,15 +49,14 @@
 }
 
 .dropdown-content li {
-	color: #d50000;
-	/*padding: 12px 110px;*/
-	/*display: block;*/
+	padding: 1em;
 	background-color: linen;
-	border: 0.5px solid black;
+	border: 0.25px solid grey;
 }
 
 .dropdown-content li a {
 	text-decoration: none;
+	color: #d50000;
 }
 
 .scholarship-option:hover .label, .education-option:hover .label {
@@ -87,6 +89,7 @@
 	margin-right: auto;
 	margin-left: auto;
 	width: 60%;
+	padding-left: 10em;
 }
 
 img {
