@@ -16,11 +16,11 @@ var ninthLogo = "<img class='ninth' src='logos/acm - fade copy 2.png' alt='ACM'>
 $(document).ready(function() {
     $('.logos').append(firstLogo, secondLogo, thirdLogo, fourthLogo, fifthLogo, sixthLogo, seventhLogo, eighthLogo, ninthLogo);
     $('.scholarship li').click(function() {
-        scholarshipOption = $(this).children().html();
+         let scholarshipOption = $(this).children().html();
         $('.program').text(scholarshipOption);
     })
     $('.education li').click(function() {
-        educationOption = $(this).children().html();
+        let educationOption = $(this).children().html();
         $('.education-level').text(educationOption);
     })
     $('.search').click(function() {
